@@ -3,8 +3,7 @@
 ## `paketobuildpacks/builder-jammy-buildpackless-full`
 
 This builder uses the [Paketo Jammy Full
-Stack](https://github.com/paketo-buildpacks/jammy-full-stack) (Ubuntu Jammy
-Jellyfish build image, distroless-like run image) and contains **no buildpacks
+Stack](https://github.com/paketo-buildpacks/jammy-full-stack) (Ubuntu Jammy Jellyfish build and run images) and contains **no buildpacks
 nor order groups**. To use this builder, you must specify buildpacks at build
 time using whatever mechanisms your CNB platform of choice offers.
 
