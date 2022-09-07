@@ -1,4 +1,4 @@
-# Paketo Buildpack for Jammyless Full Builder
+# Paketo Jammy Buildpackless Full Builder
 
 ## `paketobuildpacks/builder-jammy-buildpackless-full`
 
