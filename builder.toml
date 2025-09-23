@@ -1,4 +1,4 @@
-description = "Ubuntu 22.04 Jammy Jellyfish full image with no buildpacks included.sdf To use, specify buildpacks at build time."
+description = "Ubuntu 22.04 Jammy Jellyfish full image with no buildpacks included. To use, specify buildpacks at build time."
 
 [build]
   image = "docker.io/paketobuildpacks/build-jammy-full:0.1.96"
