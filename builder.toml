@@ -6,12 +6,13 @@ description = "Ubuntu 22.04 Jammy Jellyfish full image with no buildpacks includ
 [lifecycle]
   version = "0.20.14"
 
+[run]
+
+  [[run.images]]
+    image = "docker.io/paketobuildpacks/run-jammy-full:latest"
+
 [stack]
   id = "io.buildpacks.stacks.jammy"
-
-[run]
-  [[run.images]]
-    image = "index.docker.io/paketobuildpacks/run-jammy-full:latest"
 
 [[targets]]
   arch = "amd64"
