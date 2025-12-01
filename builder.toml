@@ -1,7 +1,7 @@
 description = "Ubuntu 22.04 Jammy Jellyfish full image with no buildpacks included. To use, specify buildpacks at build time."
 
 [build]
-  image = "docker.io/paketobuildpacks/build-jammy-full:0.1.103"
+  image = "docker.io/paketobuildpacks/build-jammy-full:0.1.104"
 
 [lifecycle]
   version = "0.20.19"
